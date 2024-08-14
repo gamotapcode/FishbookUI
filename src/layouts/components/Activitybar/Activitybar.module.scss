@@ -1,0 +1,40 @@
+.wrapper{
+    width:200px;
+}
+.header{
+    height: 40px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.title-header{
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.story{
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    background-color: aquamarine;
+
+    .list-story{
+        flex: 1;
+    }
+}
+
+.achievement{
+    flex:1;
+    background-color: aqua;
+}
+.title{
+    text-align: center;
+    padding: 10px 0;
+}
